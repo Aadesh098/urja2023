@@ -20,7 +20,7 @@ const Header = () => {
       <button type="button" className="custom__button"><a href="#about">Explore</a></button>
     </div>
 
-    <div className="app__wrapper_img">
+    <div className={"app__wrapper_img " + (inView? "srtl":"")}>
       <img src={images.welcome} alt="header_img" />
     </div>
   </div>

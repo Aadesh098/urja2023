@@ -2,8 +2,8 @@ import React from 'react';
 
 import './MenuItem.css';
 
-const MenuItem = ({ title, price, tags }) => (
-  <div className="app__menuitem">
+const MenuItem = ({ title, price, tags, cs, st}) => (
+  <div className={"app__menuitem " + cs} style={{animationDelay: (st*.5) + "s", opacity: 0}}>
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
         <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>

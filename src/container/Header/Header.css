@@ -12,6 +12,24 @@
     font-size: 90px;
 }
 
+.sltr{
+    animation-name: sltr;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sltr {
+    0%{
+        margin-left: -100px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
 .app__header-img img {
     width: 80%;
 }

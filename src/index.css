@@ -7,7 +7,7 @@
   --color-golden: #DCCA87;
   --color-black: #0C0C0C;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
+  --color-crimson: #DCCA87;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 }
@@ -17,6 +17,10 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 a {

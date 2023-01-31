@@ -55,5 +55,4 @@ const sports2 = [
   },
 ];
 
-// eslint-disable-next-line
 export default { sports1, sports2};

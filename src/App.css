@@ -52,6 +52,32 @@
   width: 80%;
 }
 
+button{
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: transparent;
+
+    border: 2px solid var(--color-crimson);
+
+    background-image: -webkit-linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
+    background-image: linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
 .custom__button {
     color: var(--color-black);
     font-family: var(--font-base);
@@ -189,5 +215,60 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+}
+
+
+.sltr{
+  animation-name: sltr;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.sttb{
+  animation-name: sttb;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.srtl{
+  animation-name: srtl;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sltr {
+  0%{
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes sttb {
+  0%{
+      transform: translateY(-300px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes srtl {
+  0%{
+      transform: translateX(100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0px);
+      opacity: 1;
   }
 }

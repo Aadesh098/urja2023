@@ -15,7 +15,6 @@ const FindUs = () => (
         <p className="p__opensans">urja2023@thapar.edu</p>
         <p className="p__opensans">+91 9810348721</p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Contact From</button>
     </div>
 
     <div className="app__wrapper_img">

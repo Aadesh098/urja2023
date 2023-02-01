@@ -55,9 +55,11 @@ const ContactForm = () => {
           onChange={handleInputChange}
         />
       </div>
-      <button type="submit" className="btn btn-primary custom__button">
+
+      <button type="submit" className="custom__button">
         Submit
       </button>
+
     </form>
   );
 };

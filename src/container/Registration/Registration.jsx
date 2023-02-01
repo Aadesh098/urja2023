@@ -5,7 +5,7 @@ import { SubHeading} from '../../components';
 import './Registration.css';
 
 const Registration = () => {
-
+// eslint-disable-next-line 
   const [ref, inView] = useInView();
 
   const [formData, setFormData] = useState({

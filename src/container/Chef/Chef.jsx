@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { SubHeading } from '../../components';
@@ -29,7 +29,7 @@ const Chef = () => {
       <div className="app__chef-sign">
         <p className={(inView? "sltr":"")} style={{animationDelay : '1.5s', opacity: '0'}}>Dr. Padmakumar Nair</p>
         <p className={"p__opensans " + (inView? "sltr":"")} style={{animationDelay : '2s', opacity: '0'}}>Director, Thapar University</p>
-        <img src={images.sign} alt="sign_image" />
+        <img src={images.sign} alt="sign_image"  />
       </div>
     </div>
   </div>

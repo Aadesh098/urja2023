@@ -24,7 +24,7 @@ const AboutUs = () => {
 
       <div className={ "app__aboutus-content_knife flex__center " + (inView ? "sttb":"") } style={{opacity: '0'}}>
         <img src={images.knife} alt="about_knife" />
-      </div>
+      </div> 
 
       <div className="app__aboutus-content_history">
         <div className={inView?'sltr':""} style={{animationDelay : '.5s', opacity: '0', maxWidth: '450px'}}>

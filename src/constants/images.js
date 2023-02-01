@@ -16,6 +16,14 @@ import laurels from '../assets/laurels.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import slider1 from '../assets/slider1.jpg';
+import slider2 from '../assets/slider2.jpg';
+import slider3 from '../assets/slider3.jpg';
+import slider4 from '../assets/slider4.jpg';
+import slider5 from '../assets/slider5.jpg';
+import slider6 from '../assets/slider6.jpg';
+import slider7 from '../assets/slider7.jpg';
+
 
 const media = {
   bg,
@@ -36,6 +44,13 @@ const media = {
   sign,
   quote,
   gericht,
+  slider1,
+  slider2,
+  slider3,
+  slider4,
+  slider5,
+  slider6,
+  slider7
 };
 
 export default media ;

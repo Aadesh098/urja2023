@@ -85,7 +85,7 @@ const Registration = () => {
           
           <div className='mt-4'>
             <SubHeading title="Name of Players and Contact number" />
-            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} ></textarea>
+            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange}></textarea>
           </div>
 
           <div style={{ marginTop: 100 }}>

@@ -6,6 +6,7 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import SpecialMenu from './Menu/SpecialMenu';
+import Sponsers from './Sponsers/sponsers';
 
 export {
   AboutUs,
@@ -16,4 +17,5 @@ export {
   Header,
   Intro,
   SpecialMenu,
+  Sponsers,
 };

@@ -4,12 +4,14 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
 
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-          <a href="#home"><img src={images.gericht} alt="app__logo" /></a>
+        <a href="#home"><img src={images.gericht} alt="app__logo" /></a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
@@ -17,6 +19,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#menu">Sports</a></li>
         <li className="p__opensans"><a href="#gallery">Gallery</a></li>
         <li className="p__opensans"><a href="#contact">Contact</a></li>
+
       </ul>
       <div className="app__navbar-login">
         <a href="#menu" className="p__opensans">Log In / Registration</a>

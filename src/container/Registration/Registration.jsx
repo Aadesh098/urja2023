@@ -91,8 +91,10 @@ const Registration = () => {
           <div style={{ marginTop: 100 }}>
             <button type="submit" className="custom__button">Submit</button>
           </div>
-          
         </form>
+        <br />
+        <p class="p__opensans">*Once the Money is Transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p>
+        <p class="p__opensans">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p>
 
       </div>
 

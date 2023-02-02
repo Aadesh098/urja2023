@@ -15,6 +15,8 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">Bhomik : +91 90572 88550</p>
         <p className="p__opensans">Anurag : +91 70094 88550</p>
+        <p className="p__opensans">Shailja : +91 98773 13581</p>
+        <p className="p__opensans">Manan : +91 83687 35708</p>
         <p className="p__opensans"></p>
       </div>
 
@@ -32,7 +34,6 @@ const Footer = () => (
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Got Any Queries</h1>
         <p className="p__opensans">urja2023@thapar.edu</p>
-        <p className="p__opensans">+91 9810348721</p>
       </div>
     </div>
 

@@ -12,7 +12,7 @@ const FindUs = () => (
       <div className="app__wrapper-content">
         <p className="p__opensans"><Contact /></p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>For Official Communication</p>
-        <p className="p__opensans">urja2023@thapar.edu</p>
+        <p className="mail">urja2023@thapar.edu</p>
       </div>
     </div>
 

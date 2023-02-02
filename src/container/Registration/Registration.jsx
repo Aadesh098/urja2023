@@ -64,7 +64,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="app__specialMenu flex__center section__padding" id="menu" ref={ref}>
+    <div className="app__specialMenu flex__center section__padding" id="register" ref={ref}>
       <div className="app__specialMenu-title">
         <SubHeading title="Rise To Glory" />
         <h1 className="headtext__cormorant">Registration</h1>

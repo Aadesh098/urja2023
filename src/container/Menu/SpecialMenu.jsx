@@ -17,12 +17,11 @@ const SpecialMenu = () => {
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine  flex__center">
+      <div className="app__specialMenu-menu_top1  flex__center">
         <p className="app__specialMenu-menu_heading">Category A</p>
         <div className="app__specialMenu_menu_items">=-
           {data.sports1.map((sports1, index) => (
-            <MenuItem key={sports1.title + index} title={sports1.title} price={sports1.price}
-            tags={sports1.tags}
+            <MenuItem key={sports1.title + index} title={sports1.title} price={sports1.price} tags={sports1.tags}
               cs={inView? "sltr": ""} st={index}/>
           ))}
         </div>
@@ -32,7 +31,7 @@ const SpecialMenu = () => {
         <img src={images.menu} alt="menu__img" className={(inView? "sttb":"")} />
       </div>
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      <div className="app__specialMenu-menu_top2  flex__center">
         <p className="app__specialMenu-menu_heading">Category B</p>
         <div className="app__specialMenu_menu_items">
           {data.sports2.map((sports2, index) => (

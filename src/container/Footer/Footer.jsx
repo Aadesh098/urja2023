@@ -33,7 +33,7 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Got Any Queries</h1>
-        <p className="p__opensans">urja2023@thapar.edu</p>
+        <p className="mail">urja2023@thapar.edu</p>
       </div>
     </div>
 

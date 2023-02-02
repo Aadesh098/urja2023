@@ -27,8 +27,8 @@
     color: var(--color-white);
 }
 
-.app__specialMenu-menu_wine,
-.app__specialMenu-menu_cocktails {
+.app__specialMenu-menu_top1,
+.app__specialMenu-menu_top2 {
     flex: 1;
     width: 100%;
     flex-direction: column;

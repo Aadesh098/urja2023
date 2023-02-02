@@ -1,0 +1,7 @@
+﻿_id;managerName;managerContact;sport;collegeName;numberOfPlayers;players;tId;__v
+"63da7c1a649d9f05967af242";"Test 2";1231231221;"cricket";"thapar";7;["a 123","b 123","c 124"];"21312341234eewe212e22";0
+"63da7db8649d9f05967af248";"Test 2";1231231221;"cricket";"thapar";7;["a 123","b 123","c 124"];"21312341234eewe212e21";0
+"63da7e2b649d9f05967af24a";"Test 1";7082599140;"cricket";"thapar";1212;["a 123","b 123","c 124"];"121221212";0
+"63dac00e7f51be7291bbbddc";"abhishek";54938499389;"cricket";"thapar";13;["a 1232534634","b 12834385845","c 34854856459","d 348544943943"];"234567456e67er56re7e";0
+"63db5b0a7f51be7291bbc1b3";"test";11212121212;"cricket";"thapar";12;["a 123","b 123","c 123","d 123","e 123"];"123123123123xyz";0
+"63db664b7f51be7291bbc1f5";"test1";9999999999;"cricket";"thapar";2;["abc 123","abcd 123"];"123233rr23jbrrj3h";0

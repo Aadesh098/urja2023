@@ -28,7 +28,7 @@ const Gallery = () => {
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
+          {[images.gallery01, images.gallery02, images.gallery03, images.gallery04 , images.gallery05 , images.gallery06 , images.gallery07 , images.gallery08 , images.gallery09 , images.gallery10 , images.gallery11 , images.gallery12 , images.gallery13 , images.gallery14 , images.gallery15].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
               <BsInstagram className="gallery__image-icon" />

@@ -3,9 +3,14 @@ import React from 'react';
 import Contact from './Contact';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import { useInView } from 'react-intersection-observer';
 
-const FindUs = () => (
-  <div className="app__bg app__wrapper section__padding" id="contact">
+const FindUs = () => {
+
+  const [ref, inView] = useInView();
+  
+  return (
+  <div className="app__bg app__wrapper section__padding" id="contact" ref={ref}>
     <div className="app__wrapper_info">
       <SubHeading title="Got Any Queries?" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Contact Us</h1>
@@ -17,9 +22,9 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="finus_img" />
+      <img src={images.findus} alt="finus_img" className={(inView? "srtl": "")} />
     </div>
   </div>
-);
+)};
 
 export default FindUs;

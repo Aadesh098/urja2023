@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { useInView } from 'react-intersection-observer';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
@@ -18,12 +19,14 @@ const Gallery = () => {
     }
   };
 
+  const [ref, inView] = useInView();
+
   return (
     <div className="app__gallery flex__center" id='gallery'>
-      <div className="app__gallery-content">
+      <div className="app__gallery-content" ref={ref}>
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}> Experience the thrill and excitement of our sports fest through our stunning Photo Gallery. The Action Shots...</p>
+        <h1 className={"headtext__cormorant " + (inView? "sltr": "")} style={{opacity: '0'}}>Photo Gallery</h1>
+        <p className={"p__opensans " + (inView? "sltr": "")} style={{ color: '#AAAAAA', marginTop: '2rem', animationDelay: '0.5s', opacity: '0'}}> Experience the thrill and excitement of our sports fest through our stunning Photo Gallery. The Action Shots...</p>
         <button type="button" className="custom__button"><a href="https://www.instagram.com/urja.tiet/">View More</a></button>
       </div>
       <div className="app__gallery-images">

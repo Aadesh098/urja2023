@@ -11,13 +11,12 @@ const Footer = () => (
     <Newsletter />
 
     <div className="app__footer-links">
-      <div className="app__footer-links_contact">
+    <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">Bhomik : +91 90572 88550</p>
-        <p className="p__opensans">Anurag : +91 70094 88550</p>
-        <p className="p__opensans">Shailja : +91 98773 13581</p>
-        <p className="p__opensans">Manan : +91 83687 35708</p>
-        <p className="p__opensans"></p>
+        <p className="p__opensans">Manan : 8368735708</p>
+        <p className="p__opensans">Bhomik : 9057236734</p>
+        <p className="p__opensans">Anurag : 7009423130</p>
+        <p className="p__opensans">Shailja : 9877313581</p>
       </div>
 
       <div className="app__footer-links_logo">
@@ -32,8 +31,11 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Got Any Queries</h1>
-        <p className="mail">urja2023@thapar.edu</p>
+        <h1 className="app__footer-headtext">Developers Hub</h1>
+        <p className="p__opensans">Aadesh : 8800030603</p>
+        <p className="p__opensans">Sahil : 7082599140</p>
+        <p className="p__opensans">Saaransh : 8427600331</p>
+        <p className="p__opensans">Nalin : 8368544686</p>
       </div>
     </div>
 

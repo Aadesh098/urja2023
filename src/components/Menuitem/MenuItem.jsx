@@ -10,7 +10,7 @@ const MenuItem = ({ title, price, tags, cs, st}) => (
       </div>
       <div className="app__menuitem-dash" />
       <div className="app__menuitem-price">
-        <p className="p__cormorant"> <a href={price}> GuideLines </a> </p>
+        <p className="p__cormorant"> <a href={price} style={{textDecoration:'underline'}}> RuleBook </a> </p>
       </div>
     </div>
 

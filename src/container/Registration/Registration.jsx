@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Axios from "axios"
 import { SubHeading } from '../../components';
 import './Registration.css';
-
+import undertaking from '../../assets/undertaking.pdf'
 const Registration = () => {
   // eslint-disable-next-line 
   const [ref, inView] = useInView();
@@ -128,6 +128,10 @@ const Registration = () => {
           <tr>
             <td>Branch</td>
             <td>TIET</td>
+          </tr>
+          <tr>
+            <td>Undertaking Form</td>
+            <td><a href={undertaking} download style={{textDecoration:"underline"}}>Download Here</a> (Mandatory Hard Copy) </td>
           </tr>
 
           <tr>

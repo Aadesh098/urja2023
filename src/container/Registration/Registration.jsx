@@ -60,7 +60,7 @@ const Registration = () => {
       alert(err.message + ". Try again!");
     });
 
-    // console.log(data);
+    //console.log(data);
   };
 
   return (

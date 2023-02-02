@@ -14,8 +14,7 @@ const Registration = () => {
     sport: "",
     collegeName: "",
     playerNumber: "",
-    playerNameandContact: [],
-    tId: ""
+    playerNameandContact: "",
   });
 
   const handleInputChange = (event) => {
@@ -28,7 +27,7 @@ const Registration = () => {
   const handleArrChange = (event) => {
 
     let data = event.target.value;
-    data = data.split(",");
+    data = data.split("\n");
 
     for (let i = 0; i < data.length; i++) {
 
@@ -38,12 +37,11 @@ const Registration = () => {
 
     setFormData({
       ...formData,
-      playerNameandContact: data
+      playerNameandContact: data.toString()
     });
 
   };
   var inputs = document.querySelectorAll('input');
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -76,37 +74,32 @@ const Registration = () => {
 
           <div>
             <SubHeading title="Manager's Name" />
-            <input name='managerName' type="text" onChange={handleInputChange} required/>
+            <input name='managerName' type="text" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Manager's Contact Number" />
-            <input name='managerPhone' type="number" onChange={handleInputChange} required/>
+            <input name='managerPhone' type="number" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Name Of Sport" />
-            <input name='sport' type="text" onChange={handleInputChange} required/>
+            <input name='sport' type="text" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="College Name" />
-            <input name='collegeName' type="text" onChange={handleInputChange} required/>
+            <input name='collegeName' type="text" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Number of Players in the Team" />
-            <input name='playerNumber' type="number" onChange={handleInputChange} required/>
+            <input name='playerNumber' type="number" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Name of Players and Contact number" />
-            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} required></textarea>
-          </div>
-
-          <div className='mt-4'>
-            <SubHeading title="Transaction Id (UTR no.)" />
-            <input name='tId' type="text" onChange={handleInputChange} />
+            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} required placeholder='Enter each player details in different lines.'></textarea>
           </div>
 
           <div style={{ marginTop: 100 }}>

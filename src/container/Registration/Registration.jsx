@@ -48,7 +48,7 @@ const Registration = () => {
     console.log(formData);
     const btn = document.getElementById('submitButton');
     btn.innerHTML = 'Registering Team';
-    Axios.post('http://ec2-3-111-197-210.ap-south-1.compute.amazonaws.com:4000/teamsignup', { ...formData }).then(() => {
+    Axios.post('/teamsignup', { ...formData }).then(() => {
       btn.innerHTML = 'Register';
       alert('Team Registered!');
       inputs.forEach(input => input.value = '');

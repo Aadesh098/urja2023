@@ -131,11 +131,11 @@ const Registration = () => {
           </tr>
 
           <tr>
-            <td colSpan={2}><p class="p__opensans">*Once the payment is transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p></td>
+            <td colSpan={2}><p className="p__opensans gold">*Once the payment is transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p></td>
           </tr>
 
           <tr>
-            <td colSpan={2}><p class="p__opensans">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p></td>
+            <td colSpan={2}><p className="p__opensans gold">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p></td>
           </tr>
         </table>
         

@@ -2,27 +2,27 @@
 const sports1 = [
   {
     title: 'Football',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1KvUkCa9undE3MevzUEX25OJrHwqgs78q/view?usp=share_link',
     tags: '',
   },
   {
     title: 'VolleyBall',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1KvUkCa9undE3MevzUEX25OJrHwqgs78q/view?usp=share_link',
     tags: '',
   },
   {
     title: 'BasketBall',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1QimBUpfoW5hpdIBp3LPofvhV92JWoA3a/view?usp=share_link',
     tags: '',
   },
   {
     title: 'Cricket',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1KvUkCa9undE3MevzUEX25OJrHwqgs78q/view?usp=share_link',
     tags: '',
   },
   {
     title: 'Athletics',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1lKXC0L9GvVcXBodtCEdr70xIMv5eGN2U/view?usp=share_link',
     tags: '',
   },
 ];
@@ -30,22 +30,22 @@ const sports1 = [
 const sports2 = [
   {
     title: 'Table Tennis',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1KvUkCa9undE3MevzUEX25OJrHwqgs78q/view?usp=share_link',
     tags: '',
   },
   {
     title: "Chess",
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1QimBUpfoW5hpdIBp3LPofvhV92JWoA3a/view?usp=share_link',
     tags: '',
   },
   {
     title: 'Badminton',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1LJ3D26HEiqkNMWjfb87KZGwePuFTcKOy/view?usp=share_link',
     tags: '',
   },
   {
     title: 'Tennis',
-    price: 'GuideLines',
+    price: 'https://drive.google.com/file/d/1KvUkCa9undE3MevzUEX25OJrHwqgs78q/view?usp=share_link',
     tags: '',
   },
 ];

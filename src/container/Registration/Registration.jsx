@@ -60,32 +60,32 @@ const Registration = () => {
 
           <div>
             <SubHeading title="Manager's Name" />
-            <input name='managerName' type="text" onChange={handleInputChange} />
+            <input name='managerName' type="text" onChange={handleInputChange} required/>
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Manager's Contact Number" />
-            <input name='managerPhone' type="number" onChange={handleInputChange} />
+            <input name='managerPhone' type="number" onChange={handleInputChange} required/>
           </div>
           
           <div className='mt-4'>
             <SubHeading title="Name Of Sport" />
-            <input name='sport' type="text" onChange={handleInputChange} />
+            <input name='sport' type="text" onChange={handleInputChange} required/>
           </div>
 
           <div className='mt-4'>
             <SubHeading title="College Name" />
-            <input name='collegeName' type="text" onChange={handleInputChange} />
+            <input name='collegeName' type="text" onChange={handleInputChange} required/>
           </div>
           
           <div className='mt-4'>
             <SubHeading title="Number of Players in the Team" />
-            <input name='playerNumber' type="number" onChange={handleInputChange} />
+            <input name='playerNumber' type="number" onChange={handleInputChange} required/>
           </div>
           
           <div className='mt-4'>
             <SubHeading title="Name of Players and Contact number" />
-            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange}></textarea>
+            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} required></textarea>
           </div>
 
           <div style={{ marginTop: 100 }}>

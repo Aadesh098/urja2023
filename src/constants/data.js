@@ -48,11 +48,6 @@ const sports2 = [
     price: 'GuideLines',
     tags: '',
   },
-  {
-    title: 'Hockey',
-    price: 'GuideLines',
-    tags: '',
-  },
 ];
 // eslint-disable-next-line 
 export default { sports1, sports2};

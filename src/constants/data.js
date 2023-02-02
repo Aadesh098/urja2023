@@ -3,27 +3,27 @@ const sports1 = [
   {
     title: 'Football',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'VolleyBall',
-    price: 'GuideLines Link',
-    tags: 'Payment Link',
+    price: 'GuideLines',
+    tags: '',
   },
   {
     title: 'BasketBall',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'Cricket',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'Athletics',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
 ];
 
@@ -31,27 +31,27 @@ const sports2 = [
   {
     title: 'Table Tennis',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: "Chess",
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'Badminton',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'Tennis',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
   {
     title: 'Hockey',
     price: 'GuideLines',
-    tags: 'Payment Link',
+    tags: '',
   },
 ];
 // eslint-disable-next-line 

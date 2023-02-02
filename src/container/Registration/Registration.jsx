@@ -115,8 +115,38 @@ const Registration = () => {
 
         </form>
         <br />
-        <p class="p__opensans">*Once the Money is Transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p>
-        <p class="p__opensans">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p>
+
+        <table className='w-100 paytable p__cormorant'>
+          <tr>
+            <td>Name of Account</td>
+            <td>TIET STUDENT ACTIVITY ACCOUNT</td>
+          </tr>
+
+          <tr>
+            <td>Account No.</td>
+            <td>40507372828</td>
+          </tr>
+
+          <tr>
+            <td>IFSC Code</td>
+            <td>SBIN0050244</td>
+          </tr>
+
+          <tr>
+            <td>Branch</td>
+            <td>TIET</td>
+          </tr>
+
+          <tr>
+            <td colSpan={2}><p class="p__opensans">*Once the payment is transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p></td>
+          </tr>
+
+          <tr>
+            <td colSpan={2}><p class="p__opensans">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p></td>
+          </tr>
+        </table>
+        
+        
 
       </div>
 

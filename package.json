@@ -2,7 +2,6 @@
     "name": "urja23",
     "version": "0.1.0",
     "private": true,
-    "proxy": "http://ec2-3-111-197-210.ap-south-1.compute.amazonaws.com:4000",
     "dependencies": {
         "@emailjs/browser": "^3.10.0",
         "@testing-library/jest-dom": "^5.16.5",

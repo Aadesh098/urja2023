@@ -48,7 +48,17 @@ const Registration = () => {
     console.log(formData);
     const btn = document.getElementById('submitButton');
     btn.innerHTML = 'Registering Team';
-    Axios.post('/teamsignup', { ...formData }).then(() => {
+
+    fetch('/teamsignup', {
+      method: 'POST',
+      body: JSON.stringify({
+        // Add parameters here
+        ...formData
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    }).then(() => {
       btn.innerHTML = 'Register';
       alert('Team Registered!');
       inputs.forEach(input => input.value = '');
@@ -57,6 +67,16 @@ const Registration = () => {
       btn.innerHTML = 'Register';
       alert(err.message + ". Try again!");
     });
+
+    // Axios.post('/teamsignup', { ...formData }).then(() => {
+    //   btn.innerHTML = 'Register';
+    //   alert('Team Registered!');
+    //   inputs.forEach(input => input.value = '');
+    //   document.querySelectorAll('textarea')[0].value = ''
+    // }, (err) => {
+    //   btn.innerHTML = 'Register';
+    //   alert(err.message + ". Try again!");
+    // });
 
     //console.log(data);
   };

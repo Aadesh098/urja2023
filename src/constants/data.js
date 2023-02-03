@@ -40,7 +40,7 @@ const sports2 = [
   },
   {
     title: 'Badminton',
-    price: 'https://drive.google.com/file/d/1LJ3D26HEiqkNMWjfb87KZGwePuFTcKOy/view?usp=share_link',
+    price: 'https://drive.google.com/file/d/1_VAPsWBocSshQlXbHmm1BYY_DFEVla-W/view?usp=share_link',
     tags: '',
   },
   {
@@ -50,4 +50,4 @@ const sports2 = [
   },
 ];
 // eslint-disable-next-line 
-export default { sports1, sports2};
+export default { sports1, sports2 };

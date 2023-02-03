@@ -108,7 +108,7 @@ const Registration = () => {
       <div className="app__specialMenu-title">
         <SubHeading title="Rise To Glory" />
         <h1 className="headtext__cormorant">Registration</h1>
-        <h1 className="headtextvid">Tutorial Video</h1>
+        <h1 className="headtextvid"><a href='https://drive.google.com/file/d/1bPnvTSQJM2HGPgFnIiCBwfcbNKXxW4NO/view?usp=share_link' target='_blank'>Tutorial Video</a></h1>
       </div>
 
       <div style={{ width: '80%' }}>

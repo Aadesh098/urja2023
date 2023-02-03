@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import Axios from "axios"
 import { SubHeading } from '../../components';
 import 'react-dropdown/style.css';
 import './Registration.css';
@@ -75,23 +74,11 @@ const Registration = () => {
     const btn = document.getElementById('submitButton');
     btn.innerHTML = 'Registering Team';
 
-<<<<<<< HEAD
-    fetch('/teamsignup', {
-      method: 'POST',
-      body: JSON.stringify({
-        // Add parameters here
-        ...formData
-      }),
-      headers: {
-        'Content-type': 'application/json; charset=UTF-8',
-      },
-=======
 
     var database = firebase.database();
     var _id = Math.random() * 10000000;
     database.ref("Team no " + Math.round(_id)).set({
       ...formData
->>>>>>> 84c63ad9303b1660d57d1289fb7277d62cdd6b59
     }).then(() => {
       btn.innerHTML = 'Register';
       alert('Team Registered!');
@@ -102,12 +89,8 @@ const Registration = () => {
       alert(err + ". Try again!");
     });
 
-<<<<<<< HEAD
-    // Axios.post('/teamsignup', { ...formData }).then(() => {
-=======
 
     // Axios.post('https://urja2023backend.tech:4000/teamsignup', { ...formData }).then(() => {
->>>>>>> 84c63ad9303b1660d57d1289fb7277d62cdd6b59
     //   btn.innerHTML = 'Register';
     //   alert('Team Registered!');
     //   inputs.forEach(input => input.value = '');
@@ -125,6 +108,7 @@ const Registration = () => {
       <div className="app__specialMenu-title">
         <SubHeading title="Rise To Glory" />
         <h1 className="headtext__cormorant">Registration</h1>
+        <h1 className="headtextvid">Tutorial Video</h1>
       </div>
 
       <div style={{ width: '80%' }}>

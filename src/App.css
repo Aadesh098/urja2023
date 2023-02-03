@@ -148,6 +148,16 @@ button{
   text-transform: capitalize;
 }
 
+.headtextvid{
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 28px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
 .spoon__img {
   width: 45px;
 }

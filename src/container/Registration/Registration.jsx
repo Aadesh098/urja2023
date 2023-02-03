@@ -2,11 +2,30 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Axios from "axios"
 import { SubHeading } from '../../components';
+import 'react-dropdown/style.css';
 import './Registration.css';
 import undertaking from '../../assets/undertaking.pdf'
+import firebase from 'firebase';
+import Dropdown from 'react-dropdown';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB4CrYIA4IRF4sQnLHb_c1CcGTQz1bYdKY",
+  authDomain: "urja-2023.firebaseapp.com",
+  databaseURL: "https://urja-2023-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "urja-2023",
+  storageBucket: "urja-2023.appspot.com",
+  messagingSenderId: "64860474258",
+  appId: "1:64860474258:web:dd005ef43a1e690a838f4b",
+  measurementId: "G-PZ4NNRHQ1Q"
+};
+firebase.initializeApp(firebaseConfig);
+// import DropdownInput from 'react-dropdown-input'
 const Registration = () => {
   // eslint-disable-next-line 
   const [ref, inView] = useInView();
+  const options = [
+    'Cricket', 'Football', 'Volleyball', 'Basketball', 'Athletics', 'Table Tennis', 'Chess', 'Badminton', 'Tennis'
+  ];
 
   const [formData, setFormData] = useState({
     managerName: "",
@@ -42,21 +61,45 @@ const Registration = () => {
 
   };
   var inputs = document.querySelectorAll('input');
-
+  const handleDropdown = (e) => {
+    setFormData({
+      ...formData,
+      sport: e.value
+    })
+  }
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(formData);
+
+
     const btn = document.getElementById('submitButton');
     btn.innerHTML = 'Registering Team';
-    Axios.post('/teamsignup', { ...formData }).then(() => {
+
+
+    var database = firebase.database();
+    var _id = Math.random() * 10000000;
+    database.ref("Team no " + Math.round(_id)).set({
+      ...formData
+    }).then(() => {
       btn.innerHTML = 'Register';
       alert('Team Registered!');
       inputs.forEach(input => input.value = '');
       document.querySelectorAll('textarea')[0].value = ''
     }, (err) => {
       btn.innerHTML = 'Register';
-      alert(err.message + ". Try again!");
+      alert(err + ". Try again!");
     });
+
+
+    // Axios.post('https://urja2023backend.tech:4000/teamsignup', { ...formData }).then(() => {
+    //   btn.innerHTML = 'Register';
+    //   alert('Team Registered!');
+    //   inputs.forEach(input => input.value = '');
+    //   document.querySelectorAll('textarea')[0].value = ''
+    // }, (err) => {
+    //   btn.innerHTML = 'Register';
+    //   alert(err.message + ". Try again!");
+    // });
 
     //console.log(data);
   };
@@ -73,18 +116,19 @@ const Registration = () => {
         <form onSubmit={handleSubmit} >
 
           <div>
-            <SubHeading title="Manager's Name" />
+            <SubHeading title="Captain's Name" />
             <input name='managerName' type="text" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
-            <SubHeading title="Manager's Contact Number" />
+            <SubHeading title="Captain's Contact Number" />
             <input name='managerPhone' type="number" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Name Of Sport" />
-            <input name='sport' type="text" onChange={handleInputChange} required />
+            {/* <input name='sport' type="text" onChange={handleInputChange} required /> */}
+            <Dropdown name='sport' options={options} style={{ backgroundColor: '#666' }} controlClassName='dropdown-bg' onChange={handleDropdown} placeholder="Select an option" />
           </div>
 
           <div className='mt-4'>
@@ -131,19 +175,25 @@ const Registration = () => {
           </tr>
           <tr>
             <td>Undertaking Form</td>
-            <td><a href={undertaking} download style={{textDecoration:"underline"}}>Download Here</a> (Mandatory Hard Copy) </td>
+            <td><a href={undertaking} download style={{ textDecoration: "underline" }}>Download Here</a> (Mandatory Hard Copy) </td>
           </tr>
 
           <tr>
-            <td colSpan={2}><p class="p__opensans">*Once the payment is transferred, Kindly send a Proof to urja2023@thapar.edu and please wait for 24 hours for the Confirmation Mail. Incase of Any discrepancies, Contact the Undersigned</p></td>
+            <td colSpan={2}><p class="p__opensans mail" style={{ textDecoration: 'none' }}>* Once the payment is transferred, Kindly send a screenshot of transaction id to urja2023@thapar.edu and please wait for 24 hours for the confirmation mail. Incase of any discrepancies, contact the undersigned</p></td>
+          </tr>
+          <tr>
+            <td colSpan={2}><p class="p__opensans mail" style={{ textDecoration: 'none' }}>* An amount of 2500/- is to be paid per player once. It includes 1000/- refundable security fee and 1500/- non-refundable charges.</p></td>
+          </tr>
+          <tr>
+            <td colSpan={2}><p class="p__opensans mail" style={{ textDecoration: 'none' }}>* Everyone must bring their Id cards along with a hard copy of Undertaking provided above..</p></td>
           </tr>
 
           <tr>
-            <td colSpan={2}><p class="p__opensans">Bhomik : +91 90572 88550 | Manan : +91 83687 35708</p></td>
+            <td colSpan={2}><p class="p__opensans">Shailja: +91 98773 13581 | Shivam : +91 85215 28744</p></td>
           </tr>
         </table>
-        
-        
+
+
 
       </div>
 

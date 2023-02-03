@@ -1,15 +1,114 @@
-.mt-4{
+.mt-4 {
     margin-top: 4rem;
 }
 
-.w-100{
+.w-100 {
     width: 100%;
     height: 400px;
 }
 
-.paytable{
+.paytable {
     margin-top: 50px;
     border: 2px solid #dcca87;
     color: #dcca87;
     padding: 10px 30px;
+}
+
+.mail {
+    text-transform: none;
+}
+
+.dropdown-bg {
+    background-color: #666;
+    color: white;
+}
+
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(71, 71, 71);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgb(250, 250, 250);
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+}
+
+.Dropdown-control:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.Dropdown-arrow {
+    border-color: #999 transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    content: ' ';
+    display: block;
+    height: 0;
+    margin-top: -ceil(2.5);
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 0
+}
+
+.is-open .Dropdown-arrow {
+    border-color: transparent transparent #999;
+    border-width: 0 5px 5px;
+}
+
+.Dropdown-menu {
+    background-color: rgb(75, 75, 75);
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    margin-top: -1px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+}
+
+.Dropdown-menu .Dropdown-group>.Dropdown-title {
+    padding: 8px 10px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.Dropdown-option {
+    box-sizing: border-box;
+    color: rgba(251, 251, 251, 0.8);
+    cursor: pointer;
+    display: block;
+    padding: 8px 10px;
+}
+
+.Dropdown-option:last-child {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.Dropdown-option:hover {
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
+}
+
+.Dropdown-option.is-selected {
+    background-color: #2b2b2b;
+    color: rgb(255, 255, 255);
+}
+
+.Dropdown-noresults {
+    box-sizing: border-box;
+    color: #ccc;
+    cursor: default;
+    display: block;
+    padding: 8px 10px;
 }

@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 
-import { AboutUs, FindUs, Footer, Gallery, Header, Intro, SpecialMenu} from './container';
+import { AboutUs, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 import Registration from './container/Registration/Registration';
@@ -20,7 +20,7 @@ const App = () => {
       {
         window.location.pathname === "/getTeams" ?
           <div className='app__header flex__center section__padding' style={{ height: '100vh' }}>
-            <div className="p__opensans "><CsvDownloadButton data={csvreport}>Export Teams Data</CsvDownloadButton></div>
+            <div className="p__opensans "><CsvDownloadButton data={csvreport} delimiter=",">Export Teams Data</CsvDownloadButton></div>
           </div> :
           <>
             <Navbar />

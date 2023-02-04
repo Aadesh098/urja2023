@@ -24,7 +24,6 @@ import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
-import laurels from '../assets/laurels.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
@@ -63,7 +62,6 @@ const media = {
   spoon,
   welcome,
   findus,
-  laurels,
   sign,
   quote,
   gericht,

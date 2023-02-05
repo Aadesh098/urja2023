@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 
-import { meal } from '../../constants';
+import { meal,poster } from '../../constants';
 import './Intro.css';
 
 const Intro = () => {
@@ -16,7 +16,7 @@ const Intro = () => {
         type="video/mp4"
         loop
         controls={false}
-        muted
+        poster={poster}
       />
       <div className="app__video-overlay flex__center">
         <div

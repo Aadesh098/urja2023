@@ -9,15 +9,14 @@ const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
     <Newsletter />
-
     <div className="app__footer-links">
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">Manan : 8368735708</p>
         <p className="p__opensans">Bhomik : 9057236734</p>
         <p className="p__opensans">Shailja : 9877313581</p>
+        <p className="p__opensans">queries@urja2023.in</p>
       </div>
-
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
         <p className="p__opensans">&quot;Uniting in Excellence: <br /> The Royal Sports Fest of Our University&quot;</p>
@@ -28,20 +27,10 @@ const Footer = () => (
           <a href="https://www.linkedin.com/company/urja-tiet/"><FiLinkedin /></a>
         </div>
       </div>
-
-      <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Developers Hub</h1>
-        <p className="p__opensans">Aadesh : 8800030603</p>
-        <p className="p__opensans">Sahil : 7082599140</p>
-        <p className="p__opensans">Saaransh : 8427600331</p>
-        <p className="p__opensans">Nalin : 8368544686</p>
-      </div>
     </div>
-
     <div className="footer__copyright">
       <p className="p__opensans">URJA 2023. All Rights reserved.</p>
     </div>
-
   </div>
 );
 

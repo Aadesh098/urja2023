@@ -1,58 +1,60 @@
 .section__padding {
-  padding: 4rem 6rem;
+    padding: 4rem 6rem;
 }
 
 .flex__center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
+    background: url('./assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 .app__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .app__wrapper_info {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .app__wrapper_img {
-  flex: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-left: 2rem;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
 }
 
 .app__wrapper_img-reverse {
-  justify-content: flex-start;
-  margin-right: 2rem;
+    justify-content: flex-start;
+    margin-right: 2rem;
 }
 
 .app__wrapper_img img {
-  width: 80%;
+    width: 80%;
 }
 
-button{
+.app__wrapper-content {
+    width: 70%;
+}
+
+button {
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 900;
@@ -64,11 +66,8 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
-
     background-color: transparent;
-
     border: 2px solid var(--color-crimson);
-
     background-image: -webkit-linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
     background-image: linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
     background-size: 500px;
@@ -90,11 +89,8 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
-
     background-color: transparent;
-
     border: 2px solid var(--color-crimson);
-
     background-image: -webkit-linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
     background-image: linear-gradient(30deg, var(--color-crimson) 50%, transparent 50%);
     background-size: 500px;
@@ -105,187 +101,173 @@ button{
 }
 
 .custom__button:hover {
-  background-position: 100%;
-  color: var(--color-golden);
+    background-position: 100%;
+    color: var(--color-golden);
 }
 
 .p__cormorant {
-  font-family: var(--font-base);
-  color: var(--color-white);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 29.9px;
-  font-size: 23px;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
 }
 
 .p__opensans {
-  font-family: var(--font-alt);
-  color: var(--color-white);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  line-height: 28px;
-  font-size: 16px;
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
 }
 
 .mail {
-  font-family: var(--font-alt);
-  color: var(--color-white);
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  line-height: 28px;
-  font-size: 16px;
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
 }
 
 .headtext__cormorant {
-  font-family: var(--font-base);
-  color: var(--color-golden);
-  font-size: 64px;
-  line-height: 83.2px;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
 }
 
-.headtextvid{
-  font-family: var(--font-base);
-  color: var(--color-golden);
-  font-size: 28px;
-  line-height: 83.2px;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
-  text-decoration: underline;
+.headtextvid {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 28px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    text-decoration: underline;
 }
 
 .spoon__img {
-  width: 45px;
+    width: 45px;
 }
 
 @media screen and (min-width: 2000px) {
-  .custom__button,
-  .p__cormorant {
-    font-size: 37px;
-    line-height: 67px;
-  }
-
-  .p__opensans {
-    font-size: 30px;
-    line-height: 50px;
-  }
-
-  .headtext__cormorant {
-    font-size: 150px;
-    line-height: 210px;
-  }
-
-  .spoon__img {
-    width: 80px;
-  }
+    .custom__button,
+    .p__cormorant {
+        font-size: 37px;
+        line-height: 67px;
+    }
+    .p__opensans {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .headtext__cormorant {
+        font-size: 150px;
+        line-height: 210px;
+    }
+    .spoon__img {
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
-  .app__wrapper {
-    flex-direction: column;
-  }
-
-  .app__wrapper_img {
-    margin: 5rem 0 0 0;
-  }
-
-  .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
-  }
-
-  .app__wrapper_img img {
-    width: 100%;
-  }
+    .app__wrapper {
+        flex-direction: column;
+    }
+    .app__wrapper_img {
+        margin: 5rem 0 0 0;
+    }
+    .app__wrapper_img-reverse {
+        margin: 0 0 5rem 0;
+    }
+    .app__wrapper_img img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 850px) {
-  .section__padding {
-    padding: 4rem;
-  }
+    .section__padding {
+        padding: 4rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
-  
-  .p__cormorant {
-    font-size: 21px;
-  }
-
-  .p__opensans {
-    font-size: 14px;
-  }
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+    .p__cormorant {
+        font-size: 21px;
+    }
+    .p__opensans {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 450px) {
-  .p__opensans {
-    font-size: 12px;
-  }
-
-  .p__cormorant {
-    font-size: 19px;
-  }
-
-  .headtext__cormorant {
-    font-size: 45px;
-    line-height: 70px;
-  }
+    .p__opensans {
+        font-size: 12px;
+    }
+    .p__cormorant {
+        font-size: 19px;
+    }
+    .headtext__cormorant {
+        font-size: 45px;
+        line-height: 70px;
+    }
 }
 
-
-.sltr{
-  animation-name: sltr;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+.sltr {
+    animation-name: sltr;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-.sttb{
-  animation-name: sttb;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+.sttb {
+    animation-name: sttb;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-.srtl{
-  animation-name: srtl;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+.srtl {
+    animation-name: srtl;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes sltr {
-  0%{
-      transform: translateX(-100px);
-      opacity: 0;
-  }
-
-  100% {
-      transform: translateX(0px);
-      opacity: 1;
-  }
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 @keyframes sttb {
-  0%{
-      transform: translateY(-300px);
-      opacity: 0;
-  }
-
-  100% {
-      transform: translateX(0px);
-      opacity: 1;
-  }
+    0% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 @keyframes srtl {
-  0%{
-      transform: translateX(100px);
-      opacity: 0;
-  }
-
-  100% {
-      transform: translateX(0px);
-      opacity: 1;
-  }
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }

@@ -32,7 +32,7 @@ const sports2 = [{
     },
     {
         title: "Chess",
-        price: 'https://drive.google.com/file/d/1QimBUpfoW5hpdIBp3LPofvhV92JWoA3a/view?usp=share_link',
+        price: 'https://drive.google.com/file/d/1KM-NFLEJFJfUysSPt1_oe8HjnviAv3EU/view?usp=share_link',
         tags: '',
     },
     {

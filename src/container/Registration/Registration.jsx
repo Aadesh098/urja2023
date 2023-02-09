@@ -27,12 +27,13 @@ const Registration = () => {
   ];
 
   const [formData, setFormData] = useState({
-    managerName: "",
-    managerPhone: "",
+    captainName: "",
+    captainPhone: "",
     sport: "",
     collegeName: "",
     playerNumber: "",
     playerNameandContact: "",
+    captainRollno: ""
   });
 
   const handleInputChange = (event) => {
@@ -117,12 +118,16 @@ const Registration = () => {
 
           <div>
             <SubHeading title="Captain's Name" />
-            <input name='managerName' type="text" onChange={handleInputChange} required />
+            <input name='captainName' type="text" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
             <SubHeading title="Captain's Contact Number" />
-            <input name='managerPhone' type="number" onChange={handleInputChange} required />
+            <input name='captainPhone' type="number" onChange={handleInputChange} required />
+          </div>
+          <div className='mt-4'>
+            <SubHeading title="Captain's College Roll No./Id" />
+            <input name='captainRollNo' type="number" onChange={handleInputChange} required />
           </div>
 
           <div className='mt-4'>
@@ -143,7 +148,7 @@ const Registration = () => {
 
           <div className='mt-4'>
             <SubHeading title="Name of Players and Contact number" />
-            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} required placeholder='Enter each player details in different lines.'></textarea>
+            <textarea rows="10" name='playerNameandContact' onChange={handleArrChange} required placeholder='Enter each player details in different lines. (<Name> <Phone No.> <Roll no.>)'></textarea>
           </div>
 
           <div style={{ marginTop: 100 }}>

@@ -12,9 +12,9 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">Manan : 8368735708</p>
-        <p className="p__opensans">Bhomik : 9057236734</p>
-        <p className="p__opensans">Shailja : 9877313581</p>
+        <p className="p__opensans">Manan : 83687 35708</p>
+        <p className="p__opensans">Bhomik : 90572 36734</p>
+        <p className="p__opensans">Aadesh : 88000 30603</p>
         <p className="p__opensans">queries@urja2023.in</p>
       </div>
       <div className="app__footer-links_logo">

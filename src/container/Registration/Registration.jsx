@@ -194,7 +194,7 @@ const Registration = () => {
           </tr>
 
           <tr>
-            <td colSpan={2}><p class="p__opensans">Shailja: +91 98773 13581 | Shivam : +91 85215 28744</p></td>
+            <td colSpan={2}><p class="p__opensans">Aadesh: +91 88000 30603 | Shivam : +91 85215 28744</p></td>
           </tr>
         </table>
 

@@ -20,7 +20,7 @@ const AboutUs = () => {
           <p className="p__opensans">
           
 
-            Urja is one of the biggest sports extravaganzas in the Country, and We are back with the 6th edition this year. Thapar Institute of Engineering & Technology's annual sports fest has been a stage for college teams to showcase their supremacy by competing amongst the nation's best talents. TIET has had a rich history of hosting magnificent and renowned fests. The fests have become an integral part of the TIET culture and identity, encompassing innumerable institutes pan-India. After a three-year gap, the fest is set to witness the thrill, excitement, and competitiveness like never before.
+            Urja is one of the biggest sports extravaganzas in the Country, and We are back with the 6th edition this year. Thapar University's annual sports fest has been a stage for college teams to showcase their supremacy by competing amongst the nation's best talents. TU has had a rich history of hosting magnificent and renowned fests , encompassing innumerable institutes across India. After a three-year gap, the fest is set to witness the thrill, excitement, and competitiveness like never before.
             Train yourself and get ready to go out, all guns blazing, in the quest for victory!
             
             </p>

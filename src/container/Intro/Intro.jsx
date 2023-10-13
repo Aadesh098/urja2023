@@ -1,15 +1,15 @@
-import React from 'react';
-import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
+import React from "react";
+import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 
-import { meal,poster } from '../../constants';
-import './Intro.css';
+import { meal, poster } from "../../constants";
+import "./Intro.css";
 
 const Intro = () => {
   const [playVideo, setPlayVideo] = React.useState(false);
   const vidRef = React.useRef();
 
   return (
-    <div className="app__video" id='intro'>
+    <div className="app__video" id="intro">
       <video
         ref={vidRef}
         src={meal}
@@ -17,7 +17,9 @@ const Intro = () => {
         loop
         controls={false}
         poster={poster}
+        muted={true}
       />
+
       <div className="app__video-overlay flex__center">
         <div
           className="app__video-overlay_circle flex__center"

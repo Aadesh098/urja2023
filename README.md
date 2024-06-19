@@ -1,4 +1,4 @@
-Official Urja Website - Edition 2023
+Official Urja Website - 2023 Edition
 <br>
 <br>
 ![image](https://github.com/Aadesh098/urja2023/assets/48157409/cb25f4eb-ef04-4ba4-b349-02bcb64cd674)

@@ -122,10 +122,11 @@ const Registration = () => {
         <SubHeading title="Rise To Glory" />
         <h1 className="headtext__cormorant">Registration</h1>
         <h1 className="headtextvid">
-          // eslint-disable-next-line react/jsx-no-target-blank
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a
             href="https://drive.google.com/file/d/1bPnvTSQJM2HGPgFnIiCBwfcbNKXxW4NO/view?usp=share_link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Tutorial Video
           </a>

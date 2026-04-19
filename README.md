@@ -29,6 +29,7 @@ URJA ’23 is the official sports festival of Thapar Institute of Engineering an
 **Integrations:** EmailJS  
 **Data Tools:** React CSV, JSON-to-CSV  
 **UI & Interaction:** React Icons, Intersection Observer, Viewport Animations  
+**Deployment:** Vercel
 
 ---
 

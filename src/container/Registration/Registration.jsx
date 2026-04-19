@@ -121,8 +121,8 @@ const Registration = () => {
       <div className="app__specialMenu-title">
         <SubHeading title="Rise To Glory" />
         <h1 className="headtext__cormorant">Registration</h1>
-        // eslint-disable-next-line react/jsx-no-target-blank
         <h1 className="headtextvid">
+          // eslint-disable-next-line react/jsx-no-target-blank
           <a
             href="https://drive.google.com/file/d/1bPnvTSQJM2HGPgFnIiCBwfcbNKXxW4NO/view?usp=share_link"
             target="_blank"

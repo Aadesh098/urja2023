@@ -34,7 +34,7 @@ URJA ’23 is the official sports festival of Thapar Institute of Engineering an
 
 ## Vision
 
-URJA ’23 is built to digitally amplify the spirit of sport—where competition meets community, and every interaction reflects the energy, unity, and legacy of the fest.
+URJA ’23 is built to digitally amplify the spirit of sport - where competition meets community, and every interaction reflects the energy, unity, and legacy of the fest.
 
 --- 
 

@@ -11,7 +11,6 @@ URJA ’23 is the official sports festival of Thapar Institute of Engineering an
 - **Event Platform:** Centralized hub for all sports events, schedules, and participation  
 - **Dynamic UI:** Smooth, responsive interface with engaging visual transitions  
 - **Registration Flow:** Streamlined participant onboarding and event sign-ups  
-- **Live Updates:** Real-time announcements, fixtures, and results tracking  
 - **Data Handling:** Efficient collection and management of participant data  
 - **Form Systems:** Robust input handling with validation and structured workflows  
 - **Cloud Backend:** Firebase-powered data storage and real-time syncing  
@@ -40,25 +39,19 @@ URJA ’23 is built to digitally amplify the spirit of sport—where competition
 --- 
 
 <br>
+<img width="1869" height="905" alt="image" src="https://github.com/user-attachments/assets/cc6edc93-a76f-44d7-bc97-16ace57ee386" />
 <br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/cb25f4eb-ef04-4ba4-b349-02bcb64cd674)
+<img width="1872" height="777" alt="image" src="https://github.com/user-attachments/assets/99940c9c-ae22-48a6-bd71-0bf7ac7bfd07" />
+<br> 
+<img width="1886" height="908" alt="image" src="https://github.com/user-attachments/assets/183b1eba-a945-44b5-b08e-9f03b1ead6b6" />
 <br>
+<img width="1874" height="905" alt="image" src="https://github.com/user-attachments/assets/8f89ee07-e578-410d-992e-e8f45aab92ee" />
 <br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/de772abe-7a91-4967-b121-2799080530ba)
+<img width="1879" height="524" alt="image" src="https://github.com/user-attachments/assets/1269bef2-5178-4fc0-8d6f-d4c4e47839b5" />
 <br>
-<br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/5a883ec5-b866-4e2f-a24b-0196adff7505)
-<br>
-<br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/a4231f07-257d-4f37-bccd-bcf5bcc36cd9)
-<br>
-<br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/d7c35e78-b4fe-4e91-812d-53cae48e426a)
-<br>
-<br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/964a23ea-0c27-4aca-bc08-b46740101f0b)
-<br>
-<br>
-![image](https://github.com/Aadesh098/urja2023/assets/48157409/04255606-d847-4188-a0e3-0d1fe86397eb)
+<img width="1868" height="819" alt="image" src="https://github.com/user-attachments/assets/881e1210-44b2-42a2-a362-17475301a81a" />
+<br> 
+<img width="1886" height="885" alt="image" src="https://github.com/user-attachments/assets/e83782aa-1b82-4590-aed2-4c442dffd407" />
+
 
 

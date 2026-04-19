@@ -52,6 +52,8 @@ URJA ’23 is built to digitally amplify the spirit of sport - where competition
 <img width="1868" height="819" alt="image" src="https://github.com/user-attachments/assets/881e1210-44b2-42a2-a362-17475301a81a" />
 <br> 
 <img width="1886" height="885" alt="image" src="https://github.com/user-attachments/assets/e83782aa-1b82-4590-aed2-4c442dffd407" />
+<br>
+<img width="1881" height="902" alt="image" src="https://github.com/user-attachments/assets/7c38ebbd-9e9b-408f-8db7-b532958e8d11" />
 
 
 
